@@ -1,9 +1,9 @@
 describe("", function() {
-  it("previous(1) is 0", function() {
-    assert.equal(previous(1), 0);
+  it("predecessor(1) is 0", function() {
+    assert.equal(predecessor(1), 0);
   });
-  it("previous(10) is 9", function() {
-    assert.equal(previous(10), 9);
+  it("predecessor(10) is 9", function() {
+    assert.equal(predecessor(10), 9);
   });
 })
 
@@ -17,14 +17,14 @@ describe("triple", function() {
   });
 })
 
-describe("previousOfTriple", function() {
-  it("previousOfTriple(1) is 2", function() {
-    assert.equal(previousOfTriple(1), 2);
+describe("predecessorOfTriple", function() {
+  it("predecessorOfTriple(1) is 2", function() {
+    assert.equal(predecessorOfTriple(1), 2);
   });
-  it("previousOfTriple(3) is 8", function() {
-    assert.equal(previousOfTriple(3), 8);
+  it("predecessorOfTriple(3) is 8", function() {
+    assert.equal(predecessorOfTriple(3), 8);
   });
-  it("previousOfTriple(10) is 29", function() {
-    assert.equal(previousOfTriple(10), 29);
+  it("predecessorOfTriple(10) is 29", function() {
+    assert.equal(predecessorOfTriple(10), 29);
   });
 })

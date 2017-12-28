@@ -19,17 +19,17 @@ function doble(number) {
   return 2 * number
 }
 
-function following(number) {
+function successor(number) {
   return number + 1
 }
 
-function followingOfDoble(number) {
-   return following(doble(number));
+function successorOfDoble(number) {
+   return successor(doble(number));
 }
 ```
 
 > Let's practice! Write the following functions:
 >
-> * `previous`: takes a number and returns that number minus one.
+> * `predecessor`: takes a number and returns that number minus one.
 > * `triple`: returns a number times three.
-> * `previousOfTriple`: that matches the two previous 
+> * `predecessorOfTriple`: that matches the two previous 
