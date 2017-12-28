@@ -7,6 +7,6 @@ function doble(number) {
    return 2 * number;
 }
 ```
-As you can see, the parenthesis in te `return` are not necessary, and we have to end the last line with a semicolon `;`.
+As you can see, the parentheses in the `return` are not necessary, and we must end the last line with a semicolon `;`.
 
-> Let's see if you are getting it right: write a function `half` that takes a number and gives back its half. Have in mind that the division operator in Javascript is `/`.
+> Let's see if you are getting it right: write a function `half` that takes a number and returns its half. Have in mind that the division operator in Javascript is `/`.
