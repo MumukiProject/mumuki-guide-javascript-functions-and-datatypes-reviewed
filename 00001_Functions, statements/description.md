@@ -8,4 +8,4 @@ function doble(number) {
 }
 ```
 
-> Let's see if you are getting it: write a function `half` that takes a number and gives back its half. Have in mind that the division operator in Javascript is `/`.
+> Let's see if you are getting it right: write a function `half` that takes a number and gives back its half. Have in mind that the division operator in Javascript is `/`.
