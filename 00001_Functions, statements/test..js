@@ -1,13 +1,13 @@
 describe("", function() {
   it("the half of 2 is 1", function() {
-    assert.equal(mitad(2), 1);
+    assert.equal(half(2), 1);
   });
   
   it("the half of 20 is 10", function() {
-    assert.equal(mitad(20), 10);
+    assert.equal(half(20), 10);
   });
   
   it("the half of 10 is 5", function() {
-    assert.equal(mitad(10), 5);
+    assert.equal(half(10), 5);
   });
 })
