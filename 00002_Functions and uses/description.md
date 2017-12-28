@@ -7,7 +7,7 @@ function doble(number) {
   return 2 * number
 }
 
-function followingOfDoble(number) {
+function successorOfDoble(number) {
    return doble(number) + 1;
 }
 ```
@@ -32,4 +32,4 @@ function successorOfDoble(number) {
 >
 > * `predecessor`: takes a number and returns that number minus one.
 > * `triple`: returns a number times three.
-> * `predecessorOfTriple`: that matches the two previous 
+> * `predecessorOfTriple`: that matches the two previous functions
